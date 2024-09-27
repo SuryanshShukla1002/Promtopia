@@ -6,9 +6,7 @@ import { useState } from "react";
 
 const PrompCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
   const [copied, setCopied] = useState("");
-  const handleCopy = () => {
-    
-  }
+  const handleCopy = () => {};
   return (
     <div className="prompt_card">
       <div className="flex justify-between items-start gap-5">
